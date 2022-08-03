@@ -4,7 +4,6 @@
     if (url.pathname.startsWith('/')) {
       url.hostname = 'hmtrnfg.herokuapp.com'
       url.protocol = 'http'
-      url.prot = '80'
       let new_request = new Request(url, request);
       return fetch(new_request);
     }
